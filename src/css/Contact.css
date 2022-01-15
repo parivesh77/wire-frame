@@ -1,0 +1,25 @@
+.mainline{
+    text-align: center;
+    font-weight: 600;
+    margin-left:15px;
+    margin-right :15px;
+    color: gray
+}
+.state{
+    text-align: center;
+}
+.name{
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+.contactnumber{
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+.email{
+    text-align: center;
+    margin:0;
+    padding:0;
+}

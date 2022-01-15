@@ -1,0 +1,27 @@
+.errormessage {
+  color: red;
+}
+
+
+.field {
+  margin: 12px 0px 12px 0px;
+}
+
+.formbg {
+  background: rgba(252, 250, 251, 0.5);
+  margin-left: 160px;
+  margin-right: 160px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 20px;
+}
+
+.headertext {
+  font-weight: bold;
+  font-weight: bold;
+  height: 40px;
+}
+
+.formmargin {
+  margin-left: 30px;
+  margin-right: 30px;
+}

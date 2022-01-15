@@ -1,0 +1,23 @@
+.footer{
+position: fixed;
+margin-left:170px;
+border-top-left-radius:30px;
+border-top-right-radius:30px;
+bottom: 0;
+width:75%;
+background-color:black;
+color: white;
+height:35px;
+text-align: center;
+}
+.p1{
+    position: relative;
+    height: 0;
+    font-weight: 300;
+}
+.p2{
+    position: relative;
+    height: 0;
+    font-weight: 300;
+    margin-top:18px;
+}
