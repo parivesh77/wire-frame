@@ -1,3 +1,5 @@
+export const BASE_URL = "https://nse-data1.p.rapidapi.com/";
+
 export const navbarRoutes = {
   Dashboard: "/dashboard",
   "All Indices": "/all-indices",

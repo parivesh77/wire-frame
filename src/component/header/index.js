@@ -17,15 +17,12 @@ class Header extends React.Component {
   };
 
   onMenuChange = (tabName) => {
-    console.log('tabName: ', tabName);
     this.props.changeActiveMenu(tabName);
   };
 
   getActiveNavbar = (tabs) => {
-    console.log('tabs: ', tabs);
     let elementArray = [];
     for (let [key, value] of Object.entries(tabs)) {
-      console.log('key: ', key+value);
       elementArray.push(
         <Link onClick={() => this.onMenuChange(key)} to={getRoutes(key)}>
           <a
@@ -42,9 +39,8 @@ class Header extends React.Component {
 
   render() {
     let { userdetails, activeTabs } = this.props;
-    console.log('this.props: ', this.props);
     let navElements = this.getActiveNavbar(activeTabs);
-    let isLoggedIn = userdetails.isLoggedIn || false;
+    let isLoggedIn = true //userdetails.isLoggedIn || false;
 
     return isLoggedIn ? (
       <div className="header">

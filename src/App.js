@@ -12,6 +12,7 @@ import Header from "./component/header";
 import Footer from "./component/Footer";
 import Faqs from "./component/Faqs";
 import Contact from "./component/ContactUs";
+import AllIndices from './component/all-indices'
 import './App.css'
 
 class App extends Component {
@@ -39,7 +40,7 @@ class App extends Component {
                   component={EditProfile}
                 ></Route>
                 <Route path="/symbols" exact component={Faqs}></Route>
-                <Route path="/all-indices" exact component={Contact}></Route>
+                <Route path="/all-indices" exact component={AllIndices}></Route>
               </Switch>
             </div>
             <Footer />
