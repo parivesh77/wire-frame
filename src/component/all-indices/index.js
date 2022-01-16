@@ -31,7 +31,7 @@ class Dashboard extends React.Component {
     } else {
       let filteredArray = [];
       allIndices.map((indice) => {
-        if (indice.category && indice.category == currentFilter) {
+        if (indice.key && indice.key == currentFilter) {
           filteredArray.push(indice);
         }
       });
@@ -52,8 +52,12 @@ class Dashboard extends React.Component {
             <option value="ALL" selected>
               ALL
             </option>
-            <option value="NIFTY">NIFTY</option>
-            <option value="SENSEX">SENSEX</option>
+            <option value="BROAD MARKET INDICES">BROAD MARKET INDICES</option>
+            <option value="SECTORAL INDICES">SECTORAL INDICES</option>
+            <option value="STRATEGY INDICES">STRATEGY INDICES</option>THEMATIC
+            INDICES
+            <option value="THEMATIC INDICES">THEMATIC INDICES</option>
+            <option value="FIXED INCOME INDICES">FIXED INCOME INDICES</option>
           </select>
           <button onClick={this.submitFilter} class="button">
             Filter
